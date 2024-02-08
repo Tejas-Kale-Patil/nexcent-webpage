@@ -1,0 +1,124 @@
+/** @format */
+.heroText {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.headText {
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.mediumText {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #717171;
+}
+.smallText {
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #717171;
+}
+.logoContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+}
+.communityImg {
+    width: 65px;
+    height: 65px;
+}
+.cardTitleText {
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+.cardPara {
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #717171;
+}
+.cardContainer {
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    }
+    .card:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 8px 0px;
+    }
+}
+.reinventImg {
+    width: 46px;
+    height: 31px;
+}
+.text-success {
+    color: #4caf4f !important;
+}
+.teslaLogo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.marketingText {
+    width: 50%;
+}
+.textInsideCard {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+.upCardContainer {
+    position: relative;
+    bottom: 100px;
+}
+.heroTextAtBtm {
+    width: 60%;
+    color: #263238 !important;
+}
+@media screen and (min-width: 779px) and (max-width: 992px) {
+    .logoContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .teslaLogo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .heroTextAtBtm {
+        width: 90%;
+        font-size: 50px !important;
+        color: #263238 !important;
+    }
+    .marketingText {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .logoContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .teslaLogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .marketingText {
+        width: 100%;
+    }
+    .heroTextAtBtm {
+        width: 100%;
+        font-size: 37px !important;
+        color: #263238 !important;
+    }
+}
