@@ -14,9 +14,13 @@ function Footer() {
             <div className="container footerContainer py-5">
                 <div className="text-white my-3">
                     <img src={logo} className="py-3" alt="logo" />
-                    <div className="my-5">
-                        <div>Copyright © 2020 Nexcent ltd.</div>
-                        <div>All rights reserved</div>
+                    <div className="py-4">
+                        <div className="smallTextFooter">
+                            Copyright © 2020 Nexcent ltd.
+                        </div>
+                        <div className="smallTextFooter">
+                            All rights reserved
+                        </div>
                     </div>
                     <div>
                         <span className="socialIcon">
@@ -39,22 +43,22 @@ function Footer() {
                         Company
                     </p>
                     <div className="text-lg-start text-end">
-                        <p>About us</p>
-                        <p>Blog</p>
-                        <p>Contact us</p>
-                        <p>Pricing</p>
-                        <p>Testimonials</p>
+                        <p className="smallTextFooter">About us</p>
+                        <p className="smallTextFooter">Blog</p>
+                        <p className="smallTextFooter">Contact us</p>
+                        <p className="smallTextFooter">Pricing</p>
+                        <p className="smallTextFooter">Testimonials</p>
                     </div>
                 </div>
 
                 <div className="my-3 text-white">
                     <p className="fw-semibold">Support</p>
                     <div>
-                        <p>Help center</p>
-                        <p>Terms of service</p>
-                        <p>Legal</p>
-                        <p>Privacy policy</p>
-                        <p>Status</p>
+                        <p className="smallTextFooter">Help center</p>
+                        <p className="smallTextFooter">Terms of service</p>
+                        <p className="smallTextFooter">Legal</p>
+                        <p className="smallTextFooter">Privacy policy</p>
+                        <p className="smallTextFooter">Status</p>
                     </div>
                 </div>
 

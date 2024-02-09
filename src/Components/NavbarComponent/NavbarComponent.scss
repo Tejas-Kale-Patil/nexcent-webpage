@@ -1,12 +1,29 @@
-/** @format */
 
 .navcomponent {
+
     .nav-link {
-        font-size: 1rem !important;
-        font-weight: 500 !important;
+        position: relative;
+        font-size: 1rem;
+        font-weight: 500;
     }
+    
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0px; 
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #4caf4f;
+        transition: width 0.5s ease;
+    }
+    
+    .nav-link:hover::before {
+        width: 100%;
+    }
+    
     .nav-link:hover {
-        color: #4CAF4F;
-        text-decoration: underline;
+        color: #4caf4f;
     }
+    
 }

@@ -5,7 +5,15 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 40% 20% 20% 20%;
+
+        .smallTextFooter {
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            color: #F5F7FA;
+        }
     }
+    
     .socialIcon {
         padding: 0.5rem;
         border-radius: 50%;

@@ -29,7 +29,9 @@ import cardImg3 from "./assets/cardImg1 (3).png";
 import pixelGradeImg from "./assets/pixelGrade.png";
 import pana from "./assets/pana.png";
 import teslaImg from "./assets/teslaImg.png";
+
 import Footer from "./Components/Footer/Footer";
+
 import colorLogo from "./assets/coloredLogo.png";
 function App() {
     return (
@@ -247,7 +249,7 @@ function App() {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row py-5 my-3">
                     <div className="col-lg-6 text-center col-12">
                         <img src={pana} alt="" />
                     </div>
@@ -277,7 +279,7 @@ function App() {
 
             <div className="my-4" style={{ backgroundColor: "#F5F7FA" }}>
                 <div className="container">
-                    <div className="row py-3">
+                    <div className="row py-5">
                         <div className="col-lg-4 text-center align-self-center col-12">
                             <img src={teslaImg} alt="" />
                         </div>
